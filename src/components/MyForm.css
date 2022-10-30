@@ -1,0 +1,14 @@
+.mainForm {
+  flex-grow: 1;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  background: white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  max-width: 25%;
+}
+button {
+  margin-top: 10px;
+}
