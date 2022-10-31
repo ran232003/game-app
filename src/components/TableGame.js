@@ -9,7 +9,7 @@ const TableGame = () => {
   });
   const dispatch = useDispatch();
   const handleInput = (e) => {
-    console.log(e.target.value);
+    console.log(e);
     const tempArray = e.target.id.split(",");
     let payload = {
       x: Number(tempArray[0]),
@@ -17,7 +17,6 @@ const TableGame = () => {
       value: Number(e.target.value),
     };
     dispatch(tableAction.updateArray(payload));
-    console.log(payload);
   };
   console.log(tableData, "tableData");
   //
